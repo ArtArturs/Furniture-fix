@@ -1,0 +1,1829 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Furniture Fix</title>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Your CSS (load AFTER Bootstrap so it overrides properly) -->
+  <link href="styles.css" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg custom-navbar shadow-sm">
+    <div class="container">
+      <!-- Logo -->
+      <a class="navbar-brand" href="./navbar.html">
+        <img src="./logo-preview-1758369589532.png" alt="Logo" width="190" height="150" class="d-inline-block align-text-center">
+      </a>
+
+      <!-- Phone number (mobile only) -->
+      <div class="d-lg-none ms-auto">
+        <a href="tel:+447934562903" class="text-decoration-none fw-bold text-dark">
+          +44 7934 562903
+        </a>
+      </div>
+
+      <!-- Mobile Toggler Button -->
+      <button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Menu Links -->
+   <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="services.html">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="areas.html">Areas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="pricing-guide.html">Pricing Guide</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+
+        <!-- Opening Hours (desktop only) -->
+        <div class="d-none d-lg-block text-end ms-auto">
+          <ul class="list-unstyled mb-0" style="font-size: 1.05rem;">
+            <li><strong>Opening Hours</strong></li>
+            <li>Mon–Fri: 9am – 11pm</li>
+            <li>Sat: 8am – 11pm</li>
+            <li>Sun: 8am - 9pm</li>
+            <li class="mt-2">
+             <a href="tel:+447934562903" class="text-decoration-none fw-bold text-dark">
+  <i class="fas fa-phone-alt me-2"></i> +44 7934 562903
+</a>
+
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Furniture Fix</title>
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet" />
+
+
+
+<!-- Bootstrap 5 JS Bundle -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+
+
+
+ <!-- Your External Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<!-- Navbar Start -->
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg custom-navbar  shadow-sm">
+  <div class="container">
+    <!-- Logo -->
+    <a class="navbar-brand" href="./index.html">
+      <img src="./logo-preview-1758369589532.png" alt="Logo" width="190" height="150" class="d-inline-block align-text-center">
+    </a>
+
+    <!-- Phone number (always visible, right side, no WhatsApp icon) -->
+    <div class="d-lg-none ms-auto">
+      <a href="tel:+447934562903" class="text-decoration-none fw-bold text-dark">
+        +44 7934 562903
+      </a>
+    </div>
+
+    <!-- Mobile Toggler Button -->
+    <button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Menu Links -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="services.html">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="areas.html">Areas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="pricing-guide.html">Pricing Guide</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+
+      <!-- Opening Hours (desktop only) -->
+      <div class="d-none d-lg-block text-end ms-auto">
+        <ul class="list-unstyled mb-0" style="font-size: 1.05rem;">
+          <li><strong>Opening Hours</strong></li>
+          <li>Mon–Fri: 9am – 11pm</li>
+          <li>Sat: 8am – 11pm</li>
+          <li>Sun: 8am - 9pm</li>
+          <li class="mt-2">
+            <a href="./Request a quote.html" class="text-decoration-none fw-bold text-dark">
+  <i class="fas fa-phone-alt me-2"></i> +44 7934 562903
+</a>
+
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<body>
+
+    <!-- Header -->
+    <header class="container my-5">
+        <div class="bg-light p-4 rounded shadow">
+            <h1 class="mb-3">Furniture Assembly Pricing Guide – FurnitureFix</h1>
+            <p>Looking for <strong class="text-warning">affordable and professional furniture assembly in the UK</strong>? At FurnitureFix, we provide reliable, high-quality assembly services for a wide range of furniture items. Our goal is to make your life easier by delivering fast, efficient, and hassle-free service — all at <strong class="text-warning">competitive prices</strong>.</p>
+        </div>
+    </header>
+
+    <!-- How Our Pricing Works -->
+    <section class="container my-5">
+        <div class="bg-white p-4 rounded shadow">
+            <h2 class="mb-3">How Our Pricing Works</h2>
+            <p>We understand that every piece of furniture is unique, so our pricing is designed to be <strong class="text-warning">transparent, flexible, and fair</strong>:</p>
+            <ul>
+                <li><strong>Per Item Pricing:</strong> We don’t charge by the hour. Instead, we agree on a fixed price for each item (or set of items) before we start, so there are no surprises.</li>
+                <li><strong>Customised Approach:</strong> Every customer and piece of furniture is different. We assess the <strong>design, size, and complexity</strong> of your furniture and provide the <strong>best possible price</strong> tailored to your needs.</li>
+                <li><strong>Clean-Up Included:</strong> After assembly, we make sure your space is tidy. <strong>No mess, no stress</strong>.</li>
+                <li><strong>Discounts for Multiple Items:</strong> Got more than one item to assemble? We offer <strong>slight discounts</strong> for multiple items.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Sample Prices -->
+    <section class="container my-5">
+        <div class="bg-light p-4 rounded shadow">
+            <h2 class="mb-3">Sample Prices (UK Rates)</h2>
+            <p>To give you an idea, here are <strong class="text-warning">approximate starting prices</strong> for common furniture items:</p>
+            
+            <div class="table-responsive">
+                <table class="table table-striped table-bordered">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>Furniture Item</th>
+                            <th>Starting Price (GBP)</th>
+                            <th>Notes</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Small cupboard</td>
+                            <td>£25</td>
+                            <td>Simple design</td>
+                        </tr>
+                        <tr>
+                            <td>Medium bookshelf</td>
+                            <td>£30</td>
+                            <td>Standard size</td>
+                        </tr>
+                        <tr>
+                            <td>Large 2-door wardrobe</td>
+                            <td>£60</td>
+                            <td>Standard design, may vary with complexity</td>
+                        </tr>
+                        <tr>
+                            <td>Large 3-door wardrobe</td>
+                            <td>£75</td>
+                            <td>Price may differ depending on design and fittings</td>
+                        </tr>
+                        <tr>
+                            <td>Dining table</td>
+                            <td>£40</td>
+                            <td>Standard size</td>
+                        </tr>
+                        <tr>
+                            <td>Office desk</td>
+                            <td>£40</td>
+                            <td>Includes standard drawers</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <p class="mt-3"><strong>Note:</strong> Prices may vary depending on the size, style, and complexity of your furniture. We always provide a <strong class="text-warning">transparent, agreed-upon price</strong> before starting any work.</p>
+        </div>
+    </section>
+
+  <!-- Our Services / Highlights -->
+  <section class="services-highlight py-5 bg-light">
+    <div class="container text-center">
+      <h2 class="fw-bold mb-5">Why Choose Us</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm border-0">
+            <div class="card-body">
+              <i class="fas fa-handshake fa-2x text-success mb-3"></i>
+              <h5 class="card-title fw-bold">Customer-Focused</h5>
+              <p class="card-text">We provide a personalized approach to every customer, ensuring satisfaction and peace of mind.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm border-0">
+            <div class="card-body">
+              <i class="fas fa-gem fa-2x text-warning mb-3"></i>
+              <h5 class="card-title fw-bold">High-Quality Work</h5>
+              <p class="card-text">Our team assembles furniture safely and efficiently, maintaining high standards of craftsmanship.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm border-0">
+            <div class="card-body">
+              <i class="fas fa-clock fa-2x text-primary mb-3"></i>
+              <h5 class="card-title fw-bold">Timely Service</h5>
+              <p class="card-text">We respect your time and ensure that all projects are completed promptly and professionally.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+ <footer class="footer py-5">
+  <div class="container text-center">
+    <h3 class="mb-3">Ready to Get Started?</h3>
+    <p class="mb-4">Contact us today and get your free quote for furniture assembly services.</p>
+    <a href="./requestaquote.html" class="btn btn-primary btn-lg">Request a Free Quote</a>
+  </div>
+</footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Request a Quote | Furniture Fix</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Font Awesome for icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg custom-navbar  shadow-sm">
+  <div class="container">
+    <!-- Logo -->
+    <a class="navbar-brand" href="./index.html">
+      <img src="./logo-preview-1758369589532.png" alt="Logo" width="190" height="150" class="d-inline-block align-text-center">
+    </a>
+
+    <!-- Phone number (always visible, right side, no WhatsApp icon) -->
+    <div class="d-lg-none ms-auto">
+      <a href="tel:+447934562903" class="text-decoration-none fw-bold text-dark">
+  <i class="fas fa-phone-alt me-2"></i> +44 7934 562903
+</a>
+
+    </div>
+
+    <!-- Mobile Toggler Button -->
+    <button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Menu Links -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="services.html">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="areas.html">Areas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="pricing-guide.html">Pricing Guide</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+
+      <!-- Opening Hours (desktop only) -->
+      <div class="d-none d-lg-block text-end ms-auto">
+        <ul class="list-unstyled mb-0" style="font-size: 1.05rem;">
+          <li><strong>Opening Hours</strong></li>
+          <li>Mon–Fri: 9am – 11pm</li>
+          <li>Sat: 8am – 11pm</li>
+          <li>Sun: 8am - 9pm</li>
+          <li class="mt-2">
+                     <a href="./Request a quote.html" class="text-decoration-none fw-bold text-dark">
+  <i class="fas fa-phone-alt me-2"></i> +44 7934 562903
+</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+  <!-- Request a Quote Section -->
+  <section class="quote-section py-5">
+    <div class="container text-center">
+      <h2 class="mb-4">Request a Quote</h2>
+      <p class="lead mb-5">Need your furniture assembled quickly and professionally? Reach out to us using your preferred method below.</p>
+
+      <div class="d-flex flex-column flex-md-row justify-content-center gap-4">
+        <!-- WhatsApp Button -->
+        <a href="https://wa.me/+447934562903?text=Hi%2C%20I%20would%20like%20a%20quote%20for%20furniture%20assembly" 
+           class="btn btn-success btn-lg" target="_blank">
+          <i class="fab fa-whatsapp"></i> Message Us on WhatsApp
+        </a>
+
+        <!-- Email Button -->
+        <a href="mailto:arthur@furniturefix.co.uk?subject=Request%20for%20Furniture%20Assembly%20Quote" 
+           class="btn btn-primary btn-lg">
+          <i class="fas fa-envelope"></i> Email Us
+        </a>
+      </div>
+
+      <p class="mt-4 text-muted">We usually respond within 1 hour during business hours.</p>
+    </div>
+  </section>
+
+  <!-- Bootstrap JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Furniture Fix</title>
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet" />
+
+  <!-- Bootstrap 5 CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Bootstrap 5 JS Bundle -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Navbar Start -->
+<nav class="navbar navbar-expand-lg custom-navbar">
+  <div class="container">
+    <!-- Logo -->
+    <a class="navbar-brand" href="./index.html">
+      <img src="./logo-preview-1758369589532.png" alt="Logo" width="190" height="150" class="d-inline-block align-text-center">
+    </a>
+
+    <!-- Mobile Toggler Button -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Menu Links + Opening Hours -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <!-- Navigation Links -->
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./services.html">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./areas.html">Areas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./pricing-guide.html">Pricing Guide</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./contact.html">Contact</a>
+        </li>
+      </ul>
+
+      <!-- Opening Hours (desktop only) -->
+      <div class="d-none d-lg-block text-end ms-auto">
+        <ul class="list-unstyled mb-0" style="font-size: 1.05rem;">
+          <li><strong>Opening Hours</strong></li>
+          <li>Mon–Fri: 9am – 11pm</li>
+          <li>Sat: 8am – 11pm</li>
+          <li>Sun: 8am – 9pm</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+<!-- Navbar End -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Furniture Fix</title>
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <link href="styles.css" rel="stylesheet"/>
+
+  <!-- Bootstrap 5 CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+
+<!-- Bootstrap 5 JS Bundle -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Navbar Start -->
+</head>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg custom-navbar  shadow-sm">
+  <div class="container">
+    <!-- Logo -->
+    <a class="navbar-brand" href="./index.html">
+      <img src="./logo-preview-1758369589532.png" alt="Logo" width="190" height="150" class="d-inline-block align-text-center">
+    </a>
+
+    <!-- Phone number (always visible, right side, no WhatsApp icon) -->
+    <div class="d-lg-none ms-auto">
+      <a href="tel:+447934562903" class="text-decoration-none fw-bold text-dark">
+  <i class="fas fa-phone-alt me-2"></i> +44 7934 562903
+</a>
+
+    </div>
+
+    <!-- Mobile Toggler Button -->
+    <button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Menu Links -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="services.html">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="areas.html">Areas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="pricing-guide.html">Pricing Guide</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+
+      <!-- Opening Hours (desktop only) -->
+      <div class="d-none d-lg-block text-end ms-auto">
+        <ul class="list-unstyled mb-0" style="font-size: 1.05rem;">
+          <li><strong>Opening Hours</strong></li>
+          <li>Mon–Fri: 9am – 11pm</li>
+          <li>Sat: 8am – 11pm</li>
+          <li>Sun: 8am - 9pm</li>
+          <li class="mt-2">
+           <a href="./Request a quote.html" class="text-decoration-none fw-bold text-dark">
+  <i class="fas fa-phone-alt me-2"></i> +44 7934 562903
+</a>
+
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+
+
+
+<section class="container py-5" id="assembly-services">
+  <h2 class="text-center mb-5">Our Assembly Services</h2>
+
+  <!-- Service 1: Flat-Pack -->
+  <div class="card mb-4 shadow-sm border-0">
+    <div class="card-body">
+      <h4 class="card-title text-center mb-3">Flat-Pack Furniture Assembly</h4>
+      <ul class="row row-cols-2 row-cols-md-3 g-2 mb-0">
+        <li class="col">IKEA, B&Q, Argos furniture</li>
+        <li class="col">Wardrobes, beds, drawers</li>
+        <li class="col">Desks, bookshelves, cabinets</li>
+        <li class="col">Office chairs, bathroom furniture</li>
+        <li class="col">Wardrobes (sliding, hinged, mirrored)</li>
+        <li class="col">Chest of drawers</li>
+        <li class="col">Bed frames (single–king size)</li>
+        <li class="col">Bunk beds and loft beds</li>
+        <li class="col">Bedside tables</li>
+        <li class="col">Bookshelves and display units</li>
+        <li class="col">TV stands and media units</li>
+        <li class="col">Shoe storage cabinets</li>
+        <li class="col">Dining tables and chairs</li>
+        <li class="col">Coffee & side tables</li>
+        <li class="col">Office desks (corner, adjustable)</li>
+        <li class="col">Office & gaming chairs</li>
+        <li class="col">Filing cabinets</li>
+        <li class="col">Computer desks</li>
+        <li class="col">Storage cubes & shelves</li>
+        <li class="col">Kitchen cabinets</li>
+        <li class="col">Bathroom cabinets</li>
+        <li class="col">Sideboards & console tables</li>
+        <li class="col">Baby changing tables</li>
+        <li class="col">Garden furniture</li>
+        <li class="col">Flat-pack sofas & armchairs</li>
+        <li class="col">TV wall brackets</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Service 2: Children's Furniture -->
+  <div class="card mb-4 shadow-sm border-0">
+    <div class="card-body">
+      <h4 class="card-title text-center mb-3">Children’s Furniture Assembly</h4>
+      <ul class="row row-cols-2 row-cols-md-3 g-2 mb-0">
+        <li class="col">Bunk beds (single, double, L-shaped)</li>
+        <li class="col">Toddler & junior beds</li>
+        <li class="col">Convertible cribs & cots</li>
+        <li class="col">Children’s wardrobes</li>
+        <li class="col">Chest of drawers</li>
+        <li class="col">Study desks & chairs</li>
+        <li class="col">Bookshelves & reading nooks</li>
+        <li class="col">Toy storage boxes & benches</li>
+        <li class="col">Play tables & activity sets</li>
+        <li class="col">Nursery furniture sets</li>
+        <li class="col">Changing tables</li>
+        <li class="col">Wall-mounted shelves</li>
+        <li class="col">Under-bed storage</li>
+        <li class="col">Kids’ vanity tables</li>
+        <li class="col">Cube shelves & organisers</li>
+        <li class="col">Foldable kids’ furniture</li>
+        <li class="col">Safety gates</li>
+        <li class="col">Furniture guards</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Service 3: Outdoor Furniture -->
+  <div class="card mb-4 shadow-sm border-0">
+    <div class="card-body">
+      <h4 class="card-title text-center mb-3">Outdoor Furniture Assembly</h4>
+      <ul class="row row-cols-2 row-cols-md-3 g-2 mb-0">
+        <li class="col">Patio dining sets</li>
+        <li class="col">Garden lounge sets</li>
+        <li class="col">Outdoor coffee tables</li>
+        <li class="col">Sun loungers</li>
+        <li class="col">Deck & folding chairs</li>
+        <li class="col">Garden benches</li>
+        <li class="col">Gazebos & pergolas</li>
+        <li class="col">Sheds & storage units</li>
+        <li class="col">BBQ stands</li>
+        <li class="col">Parasols & canopies</li>
+        <li class="col">Hammocks</li>
+        <li class="col">Swing seats</li>
+        <li class="col">Fire pits</li>
+        <li class="col">Trampolines</li>
+        <li class="col">Children’s playhouses</li>
+        <li class="col">Greenhouses</li>
+        <li class="col">Outdoor gyms</li>
+        <li class="col">Flat-pack outdoor sets</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Service 4: Home Gym -->
+  <div class="card mb-4 shadow-sm border-0">
+    <div class="card-body">
+      <h4 class="card-title text-center mb-3">Home Gym Equipment Assembly</h4>
+      <ul class="row row-cols-2 row-cols-md-3 g-2 mb-0">
+        <li class="col">Treadmills</li>
+        <li class="col">Ellipticals</li>
+        <li class="col">Exercise bikes</li>
+        <li class="col">Rowing machines</li>
+        <li class="col">Multi-station gyms</li>
+        <li class="col">Weight benches</li>
+        <li class="col">Power racks</li>
+        <li class="col">Cable machines</li>
+        <li class="col">Smith machines</li>
+        <li class="col">Dumbbell racks</li>
+        <li class="col">Pull-up stations</li>
+        <li class="col">Dip stations</li>
+        <li class="col">Wall-mounted rigs</li>
+        <li class="col">Kettlebell stands</li>
+        <li class="col">Resistance towers</li>
+        <li class="col">Vibration plates</li>
+        <li class="col">Gym flooring</li>
+        <li class="col">Flat-pack fitness sets</li>
+      </ul>
+    </div>
+  </div>
+
+</section>
+
+ <!-- Our Services / Highlights -->
+  <section class="services-highlight py-5 bg-light">
+    <div class="container text-center">
+      <h2 class="fw-bold mb-5">Why Choose Us</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm border-0">
+            <div class="card-body">
+              <i class="fas fa-handshake fa-2x text-success mb-3"></i>
+              <h5 class="card-title fw-bold">Customer-Focused</h5>
+              <p class="card-text">We provide a personalized approach to every customer, ensuring satisfaction and peace of mind.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm border-0">
+            <div class="card-body">
+              <i class="fas fa-gem fa-2x text-warning mb-3"></i>
+              <h5 class="card-title fw-bold">High-Quality Work</h5>
+              <p class="card-text">Our team assembles furniture safely and efficiently, maintaining high standards of craftsmanship.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm border-0">
+            <div class="card-body">
+              <i class="fas fa-clock fa-2x text-primary mb-3"></i>
+              <h5 class="card-title fw-bold">Timely Service</h5>
+              <p class="card-text">We respect your time and ensure that all projects are completed promptly and professionally.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+</body>
+
+<footer class="footer py-5">
+  <div class="container text-center">
+    <h3 class="mb-3">Ready to Get Started?</h3>
+    <p class="mb-4">Contact us today and get your free quote for furniture assembly services.</p>
+    <a href="./requestaquote.html" class="btn btn-primary btn-lg">Request a Free Quote</a>
+  </div>
+</footer>
+
+
+.navbar-nav .nav-link {
+  font-size: 25px; /* adjust this to your preferred size */
+}
+
+.nav-item {
+  margin-top: 65px; /* Push whole item lower */
+}
+
+.nav-link {
+  margin-right: 25px; /* or any value you like */
+  font-size: 1.1rem; 
+  color:black;  /* optional: slightly increase size */
+}
+
+.custom-navbar {
+  background-color:rgba(224, 219, 218, 0.497) /* your custom color - orange example */
+}
+
+.custom-navbar .nav-link:hover {
+  color:rgba(164, 58, 83, 0.985); /* hover effect */
+}
+
+.carousel-caption {
+  top: 50%;           /* Position from top */
+  transform: translateY(-50%);  /* Move up by 50% of its height */
+  bottom: initial;    /* Reset default bottom positioning */
+}
+
+
+.carousel-item {
+  position: relative;
+  z-index: 0; /* base layer */
+}
+
+.carousel-item::before {
+  content: "";
+  position: absolute;
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* semi-transparent dark overlay */
+  z-index: 1; /* overlay above the slide but below controls */
+  pointer-events: none; /* allow clicks to pass through */
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2; /* above overlay */
+  text-align: center;
+  width: 100%;
+  color: white;
+  padding: 0 15px;
+}
+
+.carousel-caption h1,
+.carousel-caption p {
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+/* Ensure carousel controls are above everything */
+.carousel-control-prev,
+.carousel-control-next {
+  z-index: 3;
+}
+
+/* styles.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+}
+
+.quote-section {
+  background: linear-gradient(135deg, #ffffff, #e6f0ff);
+  border-top: 4px solid #e6e9ed;
+}
+
+.quote-section h2 {
+  font-weight: 700;
+  color: #ec2744;
+}
+
+.quote-section .btn {
+  min-width: 250px;
+  font-weight: 600;
+}
+
+.quote-section .btn i {
+  margin-right: 8px;
+}
+
+
+.text-shadow {
+  text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.8);
+}
+
+.big-title {
+  font-size: 2rem; /* or 200% */
+}
+
+.big-text {
+  font-size: 1.25rem;
+}
+
+
+.footer {
+  background-color: #222; /* dark background */
+  color: white;
+  text-align: center;
+}
+
+.footer h3 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.footer p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  color: #ccc;
+}
+
+.footer .btn-primary {
+  background-color: #ff6b00; /* bright CTA color */
+  border: none;
+  padding: 12px 30px;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+  color: white;
+}
+
+.footer .btn-primary:hover {
+  background-color: #e65c00;
+  color: white;
+}
+
+
+
+.areas-section {
+  background-color: #f8f9fa;
+}
+
+.area-item {
+  padding: 1rem;
+  border: 1px solid #dee2e6;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+  background-color: #ffffff;
+  cursor: default;
+}
+
+.area-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  background-color: #fff3e0;
+}
+
+.area-item p {
+  margin: 0;
+  font-weight: 500;
+}
+
+
+/* Hero Section */
+.hero-section {
+  background-color: #f8f9fa;
+}
+
+.hero-section h1 {
+  color: #2b2b2b;
+}
+
+.hero-section p {
+  font-size: 1.25rem;
+}
+
+/* About Business */
+.about-business h2 {
+  color: #ff7f50;
+}
+
+.about-business p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+/* Services Highlight Cards */
+.services-highlight .card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.services-highlight .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+/* Call to Action */
+.cta-section {
+  background-color: #28a745;
+}
+
+.cta-section h2 {
+  font-size: 2rem;
+}
+
+.cta-section a.btn-light {
+  color: #28a745;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.cta-section a.btn-light:hover {
+  background-color: #fff;
+  color: #218838;
+}
+
+/* Make the image smaller */
+.about-img-small {
+  width: 70%; /* adjust as needed */
+  height: auto;
+  display: block;
+}
+
+/* Reduce gap between image and text */
+.about-business .col-lg-6 p {
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+  margin-right: 20%;
+  margin-left:-20%;
+}
+
+/* Optional: Shift the row slightly to the left */
+.about-business .row {
+  margin-left: -15px; /* tweak value as needed */
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Furniture Fix</title>
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet" />
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+
+<!-- Bootstrap 5 JS Bundle -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</head>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg custom-navbar  shadow-sm">
+  <div class="container">
+    <!-- Logo -->
+    <a class="navbar-brand" href="./index.html">
+      <img src="./logo-preview-1758369589532.png" alt="Logo" width="190" height="150" class="d-inline-block align-text-center">
+    </a>
+
+    <!-- Phone number (always visible, right side, no WhatsApp icon) -->
+    <div class="d-lg-none ms-auto">
+      <a href="tel:+447934562903" class="text-decoration-none fw-bold text-dark">
+        +44 7934 562903
+      </a>
+    </div>
+
+    <!-- Mobile Toggler Button -->
+    <button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Menu Links -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="services.html">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="areas.html">Areas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="pricing-guide.html">Pricing Guide</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+
+      <!-- Opening Hours (desktop only) -->
+      <div class="d-none d-lg-block text-end ms-auto">
+        <ul class="list-unstyled mb-0" style="font-size: 1.05rem;">
+          <li><strong>Opening Hours</strong></li>
+          <li>Mon–Fri: 9am – 11pm</li>
+          <li>Sat: 8am – 11pm</li>
+          <li>Sun: 8am - 9pm</li>
+          <li class="mt-2">
+            <a href="./Request a quote.html" class="text-decoration-none fw-bold text-dark">
+  <i class="fas fa-phone-alt me-2"></i> +44 7934 562903
+</a>
+
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+  <!-- Hero Section -->
+  <section class="hero-section py-5 bg-light text-dark text-center">
+    <div class="container">
+      <h1 class="display-4 fw-bold">About Furniture Fix</h1>
+      <p class="lead mt-3">Professional furniture assembly services across Birmingham & West Midlands</p>
+  
+
+    </div>
+  </section>
+
+ <!-- About Our Business -->
+<section class="about-business py-5">
+  <div class="container">
+    <div class="row align-items-center justify-content-start">
+      <div class="col-lg-5 mb-4 mb-lg-0">
+        <img src="./Images/melanie-andersen-JwTIclGB5nk-unsplash.jpg" 
+             alt="Team at work" 
+             class="img-fluid rounded shadow about-img-small me-3">
+      </div>
+      <div class="col-lg-6">
+        <h2 class="fw-bold mb-3">Who We Are</h2>
+        <p>At <strong>Furniture Fix</strong>, we pride ourselves on providing fast, reliable, and professional furniture assembly services. Whether it’s a small cupboard or a large wardrobe, we handle every item with care and precision.</p>
+        <p>Our team is trained to deal with all types of furniture, from flat-pack to custom pieces. We tailor our approach to each customer’s needs, ensuring a hassle-free experience.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Our Services / Highlights -->
+  <section class="services-highlight py-5 bg-light">
+    <div class="container text-center">
+      <h2 class="fw-bold mb-5">Why Choose Us</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm border-0">
+            <div class="card-body">
+              <i class="fas fa-handshake fa-2x text-success mb-3"></i>
+              <h5 class="card-title fw-bold">Customer-Focused</h5>
+              <p class="card-text">We provide a personalized approach to every customer, ensuring satisfaction and peace of mind.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm border-0">
+            <div class="card-body">
+              <i class="fas fa-gem fa-2x text-warning mb-3"></i>
+              <h5 class="card-title fw-bold">High-Quality Work</h5>
+              <p class="card-text">Our team assembles furniture safely and efficiently, maintaining high standards of craftsmanship.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm border-0">
+            <div class="card-body">
+              <i class="fas fa-clock fa-2x text-primary mb-3"></i>
+              <h5 class="card-title fw-bold">Timely Service</h5>
+              <p class="card-text">We respect your time and ensure that all projects are completed promptly and professionally.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ 
+
+
+  
+</body>
+</html>
+<footer class="footer py-5">
+  <div class="container text-center">
+    <h3 class="mb-3">Ready to Get Started?</h3>
+    <p class="mb-4">Contact us today and get your free quote for furniture assembly services.</p>
+    <a href="./requestaquote.html" class="btn btn-primary btn-lg">Request a Free Quote</a>
+  </div>
+</footer>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Furniture Fix</title>
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet" />
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+
+<!-- Bootstrap 5 JS Bundle -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg custom-navbar  shadow-sm">
+  <div class="container">
+    <!-- Logo -->
+    <a class="navbar-brand" href="./index.html">
+      <img src="./logo-preview-1758369589532.png" alt="Logo" width="190" height="150" class="d-inline-block align-text-center">
+    </a>
+
+    <!-- Phone number (always visible, right side, no WhatsApp icon) -->
+    <div class="d-lg-none ms-auto">
+      <a href="tel:+447934562903" class="text-decoration-none fw-bold text-dark">
+        +44 7934 562903
+      </a>
+    </div>
+
+    <!-- Mobile Toggler Button -->
+    <button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Menu Links -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./services.html">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./areas.html">Areas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./pricing-guide.html">Pricing Guide</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./contact.html">Contact</a>
+        </li>
+      </ul>
+
+      <!-- Opening Hours (desktop only) -->
+      <div class="d-none d-lg-block text-end ms-auto">
+        <ul class="list-unstyled mb-0" style="font-size: 1.05rem;">
+          <li><strong>Opening Hours</strong></li>
+          <li>Mon–Fri: 9am – 11pm</li>
+          <li>Sat: 8am – 11pm</li>
+          <li>Sun: 8am - 9pm</li>
+          <li class="mt-2">
+            <a href="./Request a quote.html" class="text-decoration-none fw-bold text-dark">
+  <i class="fas fa-phone-alt me-2"></i> +44 7934 562903
+</a>
+
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+
+<!-- Areas We Cover Section -->
+<section class="container my-5">
+  <div class="areas-section p-5 rounded shadow">
+    <h2 class="mb-4 text-center">Areas We Cover – Birmingham & West Midlands</h2>
+    <p class="text-center mb-5">We provide professional furniture assembly services across Birmingham and the wider West Midlands. If you don’t see your area listed, <a href="./Request a quote.html">contact us</a> to check availability.</p>
+
+    <div class="row g-4">
+      <!-- Birmingham City Areas -->
+      <div class="col-md-6">
+        <h4 class="mb-3">Birmingham City Areas</h4>
+        <div class="row g-3">
+          <div class="col-6 col-lg-4 area-item text-center"><i class="fas fa-home fa-2x mb-2 text-warning"></i><p>Aston</p></div>
+          <div class="col-6 col-lg-4 area-item text-center"><i class="fas fa-home fa-2x mb-2 text-warning"></i><p>Edgbaston</p></div>
+          <div class="col-6 col-lg-4 area-item text-center"><i class="fas fa-home fa-2x mb-2 text-warning"></i><p>Handsworth</p></div>
+          <div class="col-6 col-lg-4 area-item text-center"><i class="fas fa-home fa-2x mb-2 text-warning"></i><p>Harborne</p></div>
+          <div class="col-6 col-lg-4 area-item text-center"><i class="fas fa-home fa-2x mb-2 text-warning"></i><p>Hockley</p></div>
+          <div class="col-6 col-lg-4 area-item text-center"><i class="fas fa-home fa-2x mb-2 text-warning"></i><p>Jewellery Quarter</p></div>
+          <div class="col-6 col-lg-4 area-item text-center"><i class="fas fa-home fa-2x mb-2 text-warning"></i><p>King’s Heath</p></div>
+          <div class="col-6 col-lg-4 area-item text-center"><i class="fas fa-home fa-2x mb-2 text-warning"></i><p>Kings Norton</p></div>
+          <div class="col-6 col-lg-4 area-item text-center"><i class="fas fa-home fa-2x mb-2 text-warning"></i><p>Ladywood</p></div>
+          <div class="col-6 col-lg-4 area-item text-center"><i class="fas fa-home fa-2x mb-2 text-warning"></i><p>Lozells</p></div>
+          <div class="col-6 col-lg-4 area-item text-center"><i class="fas fa-home fa-2x mb-2 text-warning"></i><p>Moseley</p></div>
+          <div class="col-6 col-lg-4 area-item text-center"><i class="fas fa-home fa-2x mb-2 text-warning"></i><p>Nechells</p></div>
+          <div class="col-6 col-lg-4 area-item text-center"><i class="fas fa-home fa-2x mb-2 text-warning"></i><p>Northfield</p></div>
+          <div class="col-6 col-lg-4 area-item text-center"><i class="fas fa-home fa-2x mb-2 text-warning"></i><p>Selly Oak</p></div>
+          <div class="col-6 col-lg-4 area-item text-center"><i class="fas fa-home fa-2x mb-2 text-warning"></i><p>Sparkbrook</p></div>
+          <div class="col-6 col-lg-4 area-item text-center"><i class="fas fa-home fa-2x mb-2 text-warning"></i><p>Sparkhill</p></div>
+          <div class="col-6 col-lg-4 area-item text-center"><i class="fas fa-home fa-2x mb-2 text-warning"></i><p>Sutton Coldfield</p></div>
+          <div class="col-6 col-lg-4 area-item text-center"><i class="fas fa-home fa-2x mb-2 text-warning"></i><p>Yardley</p></div>
+          <div class="col-6 col-lg-4 area-item text-center"><i class="fas fa-home fa-2x mb-2 text-warning"></i><p>Winson Green</p></div>
+          <div class="col-6 col-lg-4 area-item text-center"><i class="fas fa-home fa-2x mb-2 text-warning"></i><p>Bournville</p></div>
+          <div class="col-6 col-lg-4 area-item text-center"><i class="fas fa-home fa-2x mb-2 text-warning"></i><p>Small Heath</p></div>
+        </div>
+      </div>
+
+      <!-- Surrounding West Midlands Towns -->
+      <div class="col-md-6">
+        <h4 class="mb-3">Surrounding West Midlands Towns</h4>
+        <div class="row g-3">
+          <div class="col-6 col-lg-4 area-item text-center"><i class="fas fa-city fa-2x mb-2 text-warning"></i><p>Solihull</p></div>
+          <div class="col-6 col-lg-4 area-item text-center"><i class="fas fa-city fa-2x mb-2 text-warning"></i><p>West Bromwich</p></div>
+          <div class="col-6 col-lg-4 area-item text-center"><i class="fas fa-city fa-2x mb-2 text-warning"></i><p>Walsall</p></div>
+          <div class="col-6 col-lg-4 area-item text-center"><i class="fas fa-city fa-2x mb-2 text-warning"></i><p>Wolverhampton</p></div>
+          <div class="col-6 col-lg-4 area-item text-center"><i class="fas fa-city fa-2x mb-2 text-warning"></i><p>Dudley</p></div>
+          <div class="col-6 col-lg-4 area-item text-center"><i class="fas fa-city fa-2x mb-2 text-warning"></i><p>Smethwick</p></div>
+          <div class="col-6 col-lg-4 area-item text-center"><i class="fas fa-city fa-2x mb-2 text-warning"></i><p>Halesowen</p></div>
+          <div class="col-6 col-lg-4 area-item text-center"><i class="fas fa-city fa-2x mb-2 text-warning"></i><p>Stourbridge</p></div>
+          <div class="col-6 col-lg-4 area-item text-center"><i class="fas fa-city fa-2x mb-2 text-warning"></i><p>Tamworth</p></div>
+          <div class="col-6 col-lg-4 area-item text-center"><i class="fas fa-city fa-2x mb-2 text-warning"></i><p>Sandwell</p></div>
+          <div class="col-6 col-lg-4 area-item text-center"><i class="fas fa-city fa-2x mb-2 text-warning"></i><p>Coventry</p></div>
+          <div class="col-6 col-lg-4 area-item text-center"><i class="fas fa-city fa-2x mb-2 text-warning"></i><p>Telford & Wrekin</p></div>
+          <div class="col-6 col-lg-4 area-item text-center"><i class="fas fa-city fa-2x mb-2 text-warning"></i><p>Cannock</p></div>
+          <div class="col-6 col-lg-4 area-item text-center"><i class="fas fa-city fa-2x mb-2 text-warning"></i><p>Lichfield</p></div>
+          <div class="col-6 col-lg-4 area-item text-center"><i class="fas fa-city fa-2x mb-2 text-warning"></i><p>Kidderminster</p></div>
+          <div class="col-6 col-lg-4 area-item text-center"><i class="fas fa-city fa-2x mb-2 text-warning"></i><p>Redditch</p></div>
+          <div class="col-6 col-lg-4 area-item text-center"><i class="fas fa-city fa-2x mb-2 text-warning"></i><p>Nuneaton</p></div>
+          <div class="col-6 col-lg-4 area-item text-center"><i class="fas fa-city fa-2x mb-2 text-warning"></i><p>Bilston</p></div>
+          <div class="col-6 col-lg-4 area-item text-center"><i class="fas fa-city fa-2x mb-2 text-warning"></i><p>Tipton</p></div>
+          <div class="col-6 col-lg-4 area-item text-center"><i class="fas fa-city fa-2x mb-2 text-warning"></i><p>Wednesbury</p></div>
+        </div>
+      </div>
+    </div>
+
+    <p class="text-center mt-4">We aim to cover all major areas across Birmingham and the West Midlands to provide fast, professional, and reliable furniture assembly services for your home or office.</p>
+  </div>
+</section>
+
+<!-- Font Awesome -->
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+  <!-- Our Services / Highlights -->
+  <section class="services-highlight py-5 bg-light">
+    <div class="container text-center">
+      <h2 class="fw-bold mb-5">Why Choose Us</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm border-0">
+            <div class="card-body">
+              <i class="fas fa-handshake fa-2x text-success mb-3"></i>
+              <h5 class="card-title fw-bold">Customer-Focused</h5>
+              <p class="card-text">We provide a personalized approach to every customer, ensuring satisfaction and peace of mind.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm border-0">
+            <div class="card-body">
+              <i class="fas fa-gem fa-2x text-warning mb-3"></i>
+              <h5 class="card-title fw-bold">High-Quality Work</h5>
+              <p class="card-text">Our team assembles furniture safely and efficiently, maintaining high standards of craftsmanship.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm border-0">
+            <div class="card-body">
+              <i class="fas fa-clock fa-2x text-primary mb-3"></i>
+              <h5 class="card-title fw-bold">Timely Service</h5>
+              <p class="card-text">We respect your time and ensure that all projects are completed promptly and professionally.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+<footer class="footer py-5">
+  <div class="container text-center">
+    <h3 class="mb-3">Ready to Get Started?</h3>
+    <p class="mb-4">Contact us today and get your free quote for furniture assembly services.</p>
+    <a href="./requestaquote.html" class="btn btn-primary btn-lg">Request a Free Quote</a>
+  </div>
+</footer>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Furniture Fix</title>
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet" />
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+
+<!-- Bootstrap 5 JS Bundle -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg custom-navbar  shadow-sm">
+  <div class="container">
+    <!-- Logo -->
+    <a class="navbar-brand" href="./index.html">
+      <img src="./logo-preview-1758369589532.png" alt="Logo" width="190" height="150" class="d-inline-block align-text-center">
+    </a>
+
+    <!-- Phone number (always visible, right side, no WhatsApp icon) -->
+    <div class="d-lg-none ms-auto">
+      <a href="tel:+447934562903" class="text-decoration-none fw-bold text-dark">
+        +44 7934 562903
+      </a>
+    </div>
+
+    <!-- Mobile Toggler Button -->
+    <button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Menu Links -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="services.html">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="areas.html">Areas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="pricing-guide.html">Pricing Guide</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+
+      <!-- Opening Hours (desktop only) -->
+      <div class="d-none d-lg-block text-end ms-auto">
+        <ul class="list-unstyled mb-0" style="font-size: 1.05rem;">
+          <li><strong>Opening Hours</strong></li>
+          <li>Mon–Fri: 9am – 11pm</li>
+          <li>Sat: 8am – 11pm</li>
+          <li>Sun: 8am - 9pm</li>
+          <li class="mt-2">
+            <a href="./Request a quote.html" class="text-decoration-none fw-bold text-dark">
+  <i class="fas fa-phone-alt me-2"></i> +44 7934 562903
+</a>
+
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- Contact Section -->
+<section id="contact" style="max-width: 650px; margin: 40px auto; padding: 20px; font-family: Arial, sans-serif;">
+  <h2 style="text-align: center; margin-bottom: 10px;">Get in Touch</h2>
+  <p style="text-align: center; margin-bottom: 20px; color: #555;">
+    Have a question or need a quote? Fill out the form or reach us directly via email or WhatsApp.
+  </p>
+
+  <!-- Contact Form -->
+  <form action="mailto:your@email.com" method="POST" enctype="text/plain" 
+        style="display: flex; flex-direction: column; gap: 15px;">
+    
+    <input type="text" name="name" placeholder="Your Name" required
+           style="padding: 12px; border: 1px solid #ccc; border-radius: 8px;">
+    
+    <input type="email" name="email" placeholder="Your Email" required
+           style="padding: 12px; border: 1px solid #ccc; border-radius: 8px;">
+    
+    <textarea name="message" rows="5" placeholder="Your Message" required
+              style="padding: 12px; border: 1px solid #ccc; border-radius: 8px;"></textarea>
+    
+    <button type="submit" 
+            style="padding: 14px; background: #0073e6; color: #fff; border: none; border-radius: 8px; cursor: pointer; font-size: 16px;">
+      Send Message
+    </button>
+  </form>
+
+  <!-- Direct Contact -->
+  <div style="margin-top: 30px; text-align: center;">
+    <p style="margin-bottom: 10px; font-weight: bold;">Or contact us directly:</p>
+    
+    <p>
+      📧 Email: <a href="mailto:arthur@furniturefix.co.uk" style="color: #0073e6;">arthur@furniturefix.co.uk</a>
+    </p>
+    <p>
+      💬 WhatsApp: <a href="https://wa.me/+447934562903" target="_blank" style="color: #25D366;">+44 7934562903</a>
+    </p>
+  </div>
+</section>
+
+ <!-- Our Services / Highlights -->
+  <section class="services-highlight py-5 bg-light">
+    <div class="container text-center">
+      <h2 class="fw-bold mb-5">Why Choose Us</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm border-0">
+            <div class="card-body">
+              <i class="fas fa-handshake fa-2x text-success mb-3"></i>
+              <h5 class="card-title fw-bold">Customer-Focused</h5>
+              <p class="card-text">We provide a personalized approach to every customer, ensuring satisfaction and peace of mind.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm border-0">
+            <div class="card-body">
+              <i class="fas fa-gem fa-2x text-warning mb-3"></i>
+              <h5 class="card-title fw-bold">High-Quality Work</h5>
+              <p class="card-text">Our team assembles furniture safely and efficiently, maintaining high standards of craftsmanship.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm border-0">
+            <div class="card-body">
+              <i class="fas fa-clock fa-2x text-primary mb-3"></i>
+              <h5 class="card-title fw-bold">Timely Service</h5>
+              <p class="card-text">We respect your time and ensure that all projects are completed promptly and professionally.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+<footer class="footer py-5">
+  <div class="container text-center">
+    <h3 class="mb-3">Ready to Get Started?</h3>
+    <p class="mb-4">Contact us today and get your free quote for furniture assembly services.</p>
+    <a href="./requestaquote.html" class="btn btn-primary btn-lg">Request a Free Quote</a>
+  </div>
+</footer>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Furniture Fix</title>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet" />
+</head>
+<body>
+
+ <!-- Navbar -->
+<nav class="navbar navbar-expand-lg custom-navbar  shadow-sm">
+  <div class="container">
+    <!-- Logo -->
+    <a class="navbar-brand" href="./index.html">
+      <img src="./logo-preview-1758369589532.png" alt="Logo" width="190" height="150" class="d-inline-block align-text-center">
+    </a>
+
+    <!-- Phone number (always visible, right side, no WhatsApp icon) -->
+    <div class="d-lg-none ms-auto">
+      <a href="tel:+447934562903" class="text-decoration-none fw-bold text-dark">
+        +44 7934 562903
+      </a>
+    </div>
+
+    <!-- Mobile Toggler Button -->
+    <button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Menu Links -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="services.html">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="areas.html">Areas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="pricing-guide.html">Pricing Guide</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+
+      <!-- Opening Hours (desktop only) -->
+      <div class="d-none d-lg-block text-end ms-auto">
+        <ul class="list-unstyled mb-0" style="font-size: 1.05rem;">
+          <li><strong>Opening Hours</strong></li>
+          <li>Mon–Fri: 9am – 11pm</li>
+          <li>Sat: 8am – 11pm</li>
+          <li>Sun: 8am - 9pm</li>
+          <li class="mt-2">
+           <a href="./Request a quote.html" class="text-decoration-none fw-bold text-dark">
+  <i class="fas fa-phone-alt me-2"></i> +44 7934 562903
+</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+<div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel"data-bs-interval="3000">
+
+  <!-- Carousel Indicators -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" class="" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" class="active" aria-current="true" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+  </div>
+
+  <!-- Carousel Items -->
+  <div class="carousel-inner">
+
+    <!-- Slide 1 -->
+    <div class="carousel-item">
+      <img src="./pickawood-JLzD88Mbr4U-unsplash.jpg" class="d-block w-100" alt="Slide 1" style="height: 500px; object-fit: cover;">
+      <div class="container">
+        <div class="carousel-caption text-center">
+          <h1>Flat-Pack Furniture Assembly Service in Birmingham and West Midlands</h1>
+          <p class="opacity-75">From IKEA to B&Q, we assemble wardrobes, beds, desks, and more - fast and hassle-free</p>
+          <p><a class="btn btn-lg btn-primary" href="./Request a quote.html" >Request a Quote</a></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 2 -->
+    <div class="carousel-item">
+      <img src="./alex-tyson-gQsyBLZ2uNw-unsplash.jpg" class="d-block w-100" alt="Slide 2" style="height: 500px; object-fit: cover;">
+      <div class="container">
+        <div class="carousel-caption text-center">
+          <h1>Children’s Bedroom Furniture Assembly</h1>
+          <p>Safe, secure, and stress-free assembly for bunk beds, toy storage, and more.</p>
+          <p><a class="btn btn-lg btn-primary" href="./Request a quote.html" >Request a Quote</a></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 3 -->
+    <div class="carousel-item active">
+      <img src="./steven-ungermann-pj3BqHOJylY-unsplash.jpg" class="d-block w-100" alt="Slide 3" style="height: 500px; object-fit: cover;">
+      <div class="container">
+        <div class="carousel-caption text-center">
+          <h1>Outdoor Furniture Installation</h1>
+          <p>We build garden tables, patio sets, and sheds — perfect for your outdoor space</p>
+          <p><a class="btn btn-lg btn-primary" href="./requestaquote.html" >Request a Quote</a></p>
+        </div>
+      </div>
+    </div>
+
+<div class="carousel-item">
+      <img src="./humphrey-m-LOA2mTj1vhc-unsplash.jpg" class="d-block w-100" alt="Office Desk and Chair Assembly" style="height: 500px; object-fit: cover;">
+      <div class="container">
+        <div class="carousel-caption text-center">
+          <h1>Home Gym & Fitness Equipment Assembly Services – Fast, Safe, Reliable</h1>
+          <p>We professionally assemble treadmills, rowing machines, weight benches, ellipticals, and more — ensuring secure installation and stress-free setup in your home or garage gym.</p>
+          <p><a class="btn btn-lg btn-primary" href="./requestaquote.html" >Request a Quote</a></p>
+        </div>
+      </div>
+    </div>
+  
+  </div>
+
+  <!-- Carousel Controls -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+
+  <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+  </div>
+
+<div class="container mt-5" id="services">
+  <div class="row row-cols-1 row-cols-md-4 g-4">
+
+    <!-- Card 1: Flat-Pack Furniture -->
+    <div class="col">
+      <div class="card h-100 text-white position-relative overflow-hidden">
+        <!-- Background Image -->
+        <img src="./Images/semyon-borisov-D9rw_J7d68k-unsplash.jpg" class="card-img h-100" alt="Flat-Pack Assembly in Birmingham and West Midlands" style="object-fit: cover;">
+        
+        <!-- Dark Overlay -->
+        <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-50"></div>
+
+        <!-- Text Content -->
+        <div class="position-absolute top-50 start-50 translate-middle text-center px-3">
+          <h5 class="fs-3 mb-3" style="text-shadow: 1px 1px 4px rgba(0,0,0,0.8);">Flat-Pack Furniture</h5>
+          <p class="fs-5 mb-0" style="text-shadow: 1px 1px 4px rgba(0,0,0,0.8);">IKEA, B&Q, Argos and more – assembled without stress or mess.</p>
+        </div>
+
+        <!-- Button -->
+        <div class="position-absolute bottom-0 start-50 translate-middle-x mb-3">
+          <a href="./services.html" class="btn btn-primary btn-sm">Read more</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2: Children’s Furniture -->
+    <div class="col">
+      <div class="card h-100 text-white position-relative overflow-hidden">
+        <img src="./Images/johny-goerend-qm2rUzrP64U-unsplash.jpg" class="card-img h-100" alt="Children’s Furniture in Birmingham and West Midlands" style="object-fit: cover;">
+        <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-50"></div>
+
+        <div class="position-absolute top-50 start-50 translate-middle text-center px-3">
+          <h5 class="fs-3 mb-3" style="text-shadow: 1px 1px 4px rgba(0,0,0,0.8);">Children’s Bedroom</h5>
+          <p class="fs-5 mb-0" style="text-shadow: 1px 1px 4px rgba(0,0,0,0.8);">Safe and secure setup for kids' beds, desks, and storage units.</p>
+        </div>
+
+        <div class="position-absolute bottom-0 start-50 translate-middle-x mb-3">
+          <a href="./services.html" class="btn btn-primary btn-sm">Read more</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3: Outdoor Furniture -->
+    <div class="col">
+      <div class="card h-100 text-white position-relative overflow-hidden">
+        <img src="./Images/andy-watkins-HebuILtR3yA-unsplash.jpg" class="card-img h-100" alt="Outdoor Furniture Assembly in Birmingham and West Midlands" style="object-fit: cover;">
+        <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-50"></div>
+
+        <div class="position-absolute top-50 start-50 translate-middle text-center px-3">
+          <h5 class="fs-3 mb-3" style="text-shadow: 1px 1px 4px rgba(0,0,0,0.8);">Outdoor Furniture</h5>
+          <p class="fs-5 mb-0" style="text-shadow: 1px 1px 4px rgba(0,0,0,0.8);">Patio sets, garden tables, sheds – ready for summer enjoyment.</p>
+        </div>
+
+        <div class="position-absolute bottom-0 start-50 translate-middle-x mb-3">
+          <a href="./services.html" class="btn btn-primary btn-sm">Read more</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 4: Home Gym Setup -->
+    <div class="col">
+      <div class="card h-100 text-white position-relative overflow-hidden">
+        <img src="./Images/petr-magera-c5H_-H-DL1U-unsplash.jpg" class="card-img h-100" alt="Home Gym Assembly in Birmingham and West Midlands" style="object-fit: cover;">
+        <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-50"></div>
+
+        <div class="position-absolute top-50 start-50 translate-middle text-center px-3">
+          <h5 class="fs-3 mb-3" style="text-shadow: 1px 1px 4px rgba(0,0,0,0.8);">Home Gym Setup</h5>
+          <p class="fs-5 mb-0" style="text-shadow: 1px 1px 4px rgba(0,0,0,0.8);">From treadmills to weight benches – we make home gyms happen.</p>
+        </div>
+
+        <div class="position-absolute bottom-0 start-50 translate-middle-x mb-3">
+          <a href="./services.html" class="btn btn-primary btn-sm">Read more</a>
+        </div>
+      </div>
+    </div>
+
+  </div> <!-- row -->
+</div> <!-- container -->
+
+
+
+<div class="p-5 mb-4 bg-body-tertiary rounded-3">
+  <div class="container text-center">
+    <div class="row justify-content-center">
+      <div class="col-lg-10">
+        <h1 class="display-5 fw-bold">Flat-Pack Furniture Assembly Services in Birmingham & West Midlands</h1>
+      </div>
+    </div>
+    <div class="row justify-content-center mt-3">
+      <div class="col-md-10 col-lg-8">
+        <p class="fs-4">
+          Welcome to <strong>FurnitureFix</strong> – your trusted local experts in flat-pack furniture assembly.
+          We are a team of professional, punctual, and highly skilled handymen serving Birmingham, Coventry, Dudley,
+          Sandwell, Solihull, Walsall, Wolverhampton, Telford, and surrounding areas.
+        </p>
+        <p class="fs-5">
+          Whether it's IKEA, B&Q, Argos, or any other brand, we provide fast, reliable, and affordable assembly
+          services,including flat-pack furniture, children’s bedroom furniture, garden and outdoor furniture,
+          as well as home gym and fitness equipment.
+        </p>
+        <p class="fs-5">
+          We take pride in our work, and customer satisfaction is our top priority. For the best furniture assembly
+          service in your area, contact us today, we’ll be happy to answer any questions and offer a free quote.
+        </p>
+      </div>
+    </div>
+    <div class="row justify-content-center mt-4">
+      
+    </div>
+  </div>
+</div>
+
+
+
+ <!-- Our Services / Highlights -->
+  <section class="services-highlight py-5 bg-light">
+    <div class="container text-center">
+      <h2 class="fw-bold mb-5">Why Choose Us</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm border-0">
+            <div class="card-body">
+              <i class="fas fa-handshake fa-2x text-success mb-3"></i>
+              <h5 class="card-title fw-bold">Customer-Focused</h5>
+              <p class="card-text">We provide a personalized approach to every customer, ensuring satisfaction and peace of mind.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm border-0">
+            <div class="card-body">
+              <i class="fas fa-gem fa-2x text-warning mb-3"></i>
+              <h5 class="card-title fw-bold">High-Quality Work</h5>
+              <p class="card-text">Our team assembles furniture safely and efficiently, maintaining high standards of craftsmanship.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm border-0">
+            <div class="card-body">
+              <i class="fas fa-clock fa-2x text-primary mb-3"></i>
+              <h5 class="card-title fw-bold">Timely Service</h5>
+              <p class="card-text">We respect your time and ensure that all projects are completed promptly and professionally.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ 
+
+</body>
+
+
+
+
+<footer class="footer py-5">
+  <div class="container text-center">
+    <h3 class="mb-3">Ready to Get Started?</h3>
+    <p class="mb-4">Contact us today and get your free quote for furniture assembly services.</p>
+    <a href="./requestaquote.html" class="btn btn-primary btn-lg">Request a Free Quote</a>
+  </div>
+</footer>
+
+
+  <!-- Bootstrap JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</html>
+
+
