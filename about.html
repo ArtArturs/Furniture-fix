@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,6 +12,40 @@
 
   <!-- Font Awesome -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+  <style>
+    /* ------------------ Minimal Mobile Fixes ------------------ */
+    body {
+      overflow-x: hidden; /* prevent horizontal scroll */
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    /* Mobile navbar adjustments */
+    @media (max-width: 991.98px) {
+      .navbar-nav {
+        flex-direction: column;
+      }
+
+      .navbar-nav .nav-link {
+        margin-right: 0 !important;
+        padding: 0.5rem 1rem;
+      }
+
+      .navbar-collapse {
+        max-height: 90vh;
+        overflow-y: auto;
+      }
+
+      .hero-section, .about-business, .services-highlight, .footer {
+        padding-left: 1rem;
+        padding-right: 1rem;
+      }
+    }
+  </style>
 </head>
 <body>
 
@@ -18,7 +53,7 @@
   <nav class="navbar navbar-expand-lg custom-navbar shadow-sm">
     <div class="container">
       <a class="navbar-brand" href="./index.html">
-        <img src="./logo-preview-1758369589532.png" alt="Logo" class="logo-img">
+        <img src="./logo-preview-1758369589532.png" alt="Logo" class="logo-img img-fluid">
       </a>
 
       <!-- Mobile Phone -->
