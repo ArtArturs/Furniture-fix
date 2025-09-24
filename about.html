@@ -8,58 +8,44 @@
   <!-- Bootstrap 5 CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="styles.css" rel="stylesheet" />
+
+  <!-- Font Awesome -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
-  
-  <!-- Bootstrap 5 JS Bundle -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
 
-<!-- Navbar -->
- <nav class="navbar navbar-expand-lg custom-navbar shadow-sm">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg custom-navbar shadow-sm">
     <div class="container">
-      <!-- Logo -->
-      <a class="navbar-brand" href="./navbar.html">
-        <img src="./logo-preview-1758369589532.png" alt="Logo" width="190" height="150" class="d-inline-block align-text-center">
+      <a class="navbar-brand" href="./index.html">
+        <img src="./logo-preview-1758369589532.png" alt="Logo" class="logo-img">
       </a>
 
-      <!-- Phone number (mobile only) -->
+      <!-- Mobile Phone -->
       <div class="d-lg-none ms-auto">
         <a href="tel:+447934562903" class="text-decoration-none fw-bold text-dark">
           +44 7934 562903
         </a>
       </div>
 
-      <!-- Mobile Toggler Button -->
+      <!-- Toggler -->
       <button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
       <!-- Menu Links -->
-   <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="about.html">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="services.html">Services</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="areas.html">Areas</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="pricing-guide.html">Pricing Guide</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-      </ul>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="areas.html">Areas</a></li>
+          <li class="nav-item"><a class="nav-link" href="pricing-guide.html">Pricing Guide</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
 
-        <!-- Opening Hours (desktop only) -->
+        <!-- Desktop Hours -->
         <div class="d-none d-lg-block text-end ms-auto">
           <ul class="list-unstyled mb-0" style="font-size: 1.05rem;">
             <li><strong>Opening Hours</strong></li>
@@ -67,85 +53,86 @@
             <li>Sat: 8am – 11pm</li>
             <li>Sun: 8am - 9pm</li>
             <li class="mt-2">
-             <a href="tel:+447934562903" class="text-decoration-none fw-bold text-dark">
-  <i class="fas fa-phone-alt me-2"></i> +44 7934 562903
-</a>
-
+              <a href="tel:+447934562903" class="text-decoration-none fw-bold text-dark">
+                <i class="fas fa-phone-alt me-2"></i> +44 7934 562903
+              </a>
             </li>
           </ul>
         </div>
       </div>
     </div>
   </nav>
-<!-- Hero Section -->
-<section class="hero-section py-5 bg-light text-dark text-center">
-  <div class="container">
-    <h1 class="hero-title fw-bold">About Furniture Fix</h1>
-    <p class="hero-lead mt-3">Professional furniture assembly services across Birmingham & West Midlands</p>
-  </div>
-</section>
 
-<!-- About Our Business -->
-<section class="about-business py-5">
-  <div class="container">
-    <div class="row align-items-center">
-      <div class="col-12 col-lg-5 mb-4 mb-lg-0 text-center">
-        <img src="./Images/melanie-andersen-JwTIclGB5nk-unsplash.jpg" 
-             alt="Team at work" class="about-img rounded shadow" loading="lazy">
-      </div>
-      <div class="col-12 col-lg-7">
-        <h2 class="section-title fw-bold mb-3">Who We Are</h2>
-        <p class="section-text">At <strong>Furniture Fix</strong>, we pride ourselves on providing fast, reliable, and professional furniture assembly services. Whether it’s a small cupboard or a large wardrobe, we handle every item with care and precision.</p>
-        <p class="section-text">Our team is trained to deal with all types of furniture, from flat-pack to custom pieces. We tailor our approach to each customer’s needs, ensuring a hassle-free experience.</p>
-      </div>
+  <!-- Hero Section -->
+  <section class="hero-section py-5 bg-light text-dark text-center">
+    <div class="container">
+      <h1 class="hero-title fw-bold">About Furniture Fix</h1>
+      <p class="hero-lead mt-3">Professional furniture assembly services across Birmingham & West Midlands</p>
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- Services / Highlights -->
-<section class="services-highlight py-5 bg-light">
-  <div class="container text-center">
-    <h2 class="section-title fw-bold mb-5">Why Choose Us</h2>
-    <div class="row g-4">
-      <div class="col-12 col-md-4">
-        <div class="card h-100 shadow-sm border-0">
-          <div class="card-body">
-            <i class="fas fa-handshake fa-2x text-success mb-3"></i>
-            <h5 class="card-title fw-bold">Customer-Focused</h5>
-            <p class="card-text">We provide a personalized approach to every customer, ensuring satisfaction and peace of mind.</p>
-          </div>
+  <!-- About Business -->
+  <section class="about-business py-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-12 col-lg-5 mb-4 mb-lg-0 text-center">
+          <img src="./Images/melanie-andersen-JwTIclGB5nk-unsplash.jpg" alt="Team at work" class="about-img rounded shadow" loading="lazy">
         </div>
-      </div>
-      <div class="col-12 col-md-4">
-        <div class="card h-100 shadow-sm border-0">
-          <div class="card-body">
-            <i class="fas fa-gem fa-2x text-warning mb-3"></i>
-            <h5 class="card-title fw-bold">High-Quality Work</h5>
-            <p class="card-text">Our team assembles furniture safely and efficiently, maintaining high standards of craftsmanship.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-md-4">
-        <div class="card h-100 shadow-sm border-0">
-          <div class="card-body">
-            <i class="fas fa-clock fa-2x text-primary mb-3"></i>
-            <h5 class="card-title fw-bold">Timely Service</h5>
-            <p class="card-text">We respect your time and ensure that all projects are completed promptly and professionally.</p>
-          </div>
+        <div class="col-12 col-lg-7">
+          <h2 class="section-title fw-bold">Who We Are</h2>
+          <p class="section-text">At <strong>Furniture Fix</strong>, we pride ourselves on providing fast, reliable, and professional furniture assembly services. Whether it’s a small cupboard or a large wardrobe, we handle every item with care and precision.</p>
+          <p class="section-text">Our team is trained to deal with all types of furniture, from flat-pack to custom pieces. We tailor our approach to each customer’s needs, ensuring a hassle-free experience.</p>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- Footer -->
-<footer class="footer py-5">
-  <div class="container text-center">
-    <h3 class="mb-3">Ready to Get Started?</h3>
-    <p class="mb-4">Contact us today and get your free quote for furniture assembly services.</p>
-    <a href="./requestaquote.html" class="btn btn-primary btn-lg">Request a Free Quote</a>
-  </div>
-</footer>
+  <!-- Services -->
+  <section class="services-highlight py-5 bg-light">
+    <div class="container text-center">
+      <h2 class="section-title fw-bold mb-5">Why Choose Us</h2>
+      <div class="row g-4">
+        <div class="col-12 col-md-4">
+          <div class="card h-100 shadow-sm border-0">
+            <div class="card-body">
+              <i class="fas fa-handshake fa-2x text-success mb-3"></i>
+              <h5 class="card-title fw-bold">Customer-Focused</h5>
+              <p class="card-text">We provide a personalized approach to every customer, ensuring satisfaction and peace of mind.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="card h-100 shadow-sm border-0">
+            <div class="card-body">
+              <i class="fas fa-gem fa-2x text-warning mb-3"></i>
+              <h5 class="card-title fw-bold">High-Quality Work</h5>
+              <p class="card-text">Our team assembles furniture safely and efficiently, maintaining high standards of craftsmanship.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="card h-100 shadow-sm border-0">
+            <div class="card-body">
+              <i class="fas fa-clock fa-2x text-primary mb-3"></i>
+              <h5 class="card-title fw-bold">Timely Service</h5>
+              <p class="card-text">We respect your time and ensure that all projects are completed promptly and professionally.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <!-- Footer -->
+  <footer class="footer py-5">
+    <div class="container text-center">
+      <h3 class="mb-3">Ready to Get Started?</h3>
+      <p class="mb-4">Contact us today and get your free quote for furniture assembly services.</p>
+      <a href="./requestaquote.html" class="btn btn-primary btn-lg">Request a Free Quote</a>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
