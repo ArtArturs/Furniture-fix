@@ -220,23 +220,62 @@ body {
   color: #218838;
 }
 
-/* Make the image smaller */
-.about-img-small {
-  width: 70%; /* adjust as needed */
+
+@media (max-width: 576px) {
+  .hero-section, .about-business, .services-highlight {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .about-business p, .services-highlight p {
+    word-wrap: break-word;
+  }
+}
+
+
+/* Prevent horizontal scrolling */
+body, html { overflow-x: hidden; }
+
+/* Navbar logo */
+.logo-img { max-width: 150px; height: auto; }
+
+/* About image */
+.about-img { width: 100%; height: auto; }
+
+/* Hero Section */
+.hero-title { font-size: clamp(1.8rem, 5vw, 3rem); }
+.hero-lead { font-size: clamp(1rem, 2.5vw, 1.25rem); }
+
+/* Section Titles */
+.section-title { font-size: clamp(1.5rem, 4vw, 2.2rem); }
+
+/* Card Titles */
+.card-title { font-size: clamp(1.1rem, 3vw, 1.3rem); }
+
+/* Paragraph text */
+.section-text, .card-text { font-size: clamp(0.9rem, 2.5vw, 1.1rem); line-height: 1.6; }
+
+/* Footer */
+.footer h3 { font-size: clamp(1.5rem, 3vw, 2rem); }
+.footer p { font-size: clamp(1rem, 2.5vw, 1.1rem); }
+
+
+
+
+
+/* Fix navbar toggler icon for GitHub Pages mobile */
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%280, 0, 0, 0.7%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* Ensure navbar links don’t overlap on small screens */
+@media (max-width: 576px) {
+  .navbar-nav .nav-link {
+    margin-right: 10px;
+  }
+}
+
+/* Make about image fully responsive */
+.about-img {
+  max-width: 100%;
   height: auto;
-  display: block;
 }
-
-/* Reduce gap between image and text */
-.about-business .col-lg-6 p {
-  margin-top: 1rem;
-  margin-bottom: 5rem;
-  margin-right: 20%;
-  margin-left:-20%;
-}
-
-/* Optional: Shift the row slightly to the left */
-.about-business .row {
-  margin-left: -15px; /* tweak value as needed */
-}
-
