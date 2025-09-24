@@ -9,38 +9,50 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="styles.css" rel="stylesheet" />
 
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
 
+  <!-- Bootstrap 5 JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
-<!-- Bootstrap 5 JS Bundle -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-
-
+  <style>
+    /* Ensure no horizontal scrolling on mobile */
+    body, html {
+      overflow-x: hidden;
+    }
+    .navbar-brand img {
+      max-width: 150px;
+      height: auto;
+    }
+    .about-img-small {
+      width: 100%;
+      height: auto;
+    }
+  </style>
 </head>
+<body>
 
-<!-- Navbar -->
-<nav class="navbar navbar-expand-lg custom-navbar  shadow-sm">
-  <div class="container">
-    <!-- Logo -->
-    <a class="navbar-brand" href="./index.html">
-      <img src="./logo-preview-1758369589532.png" alt="Logo" width="190" height="150" class="d-inline-block align-text-center">
-    </a>
-
-    <!-- Phone number (always visible, right side, no WhatsApp icon) -->
-    <div class="d-lg-none ms-auto">
-      <a href="tel:+447934562903" class="text-decoration-none fw-bold text-dark">
-        +44 7934 562903
+ <nav class="navbar navbar-expand-lg custom-navbar shadow-sm">
+    <div class="container">
+      <!-- Logo -->
+      <a class="navbar-brand" href="./navbar.html">
+        <img src="./logo-preview-1758369589532.png" alt="Logo" width="190" height="150" class="d-inline-block align-text-center">
       </a>
-    </div>
 
-    <!-- Mobile Toggler Button -->
-    <button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+      <!-- Phone number (mobile only) -->
+      <div class="d-lg-none ms-auto">
+        <a href="tel:+447934562903" class="text-decoration-none fw-bold text-dark">
+          +44 7934 562903
+        </a>
+      </div>
 
-    <!-- Menu Links -->
-    <div class="collapse navbar-collapse" id="navbarNav">
+      <!-- Mobile Toggler Button -->
+      <button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Menu Links -->
+   <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="index.html">Home</a>
@@ -62,44 +74,40 @@
         </li>
       </ul>
 
-      <!-- Opening Hours (desktop only) -->
-      <div class="d-none d-lg-block text-end ms-auto">
-        <ul class="list-unstyled mb-0" style="font-size: 1.05rem;">
-          <li><strong>Opening Hours</strong></li>
-          <li>Mon–Fri: 9am – 11pm</li>
-          <li>Sat: 8am – 11pm</li>
-          <li>Sun: 8am - 9pm</li>
-          <li class="mt-2">
-            <a href="./Request a quote.html" class="text-decoration-none fw-bold text-dark">
+        <!-- Opening Hours (desktop only) -->
+        <div class="d-none d-lg-block text-end ms-auto">
+          <ul class="list-unstyled mb-0" style="font-size: 1.05rem;">
+            <li><strong>Opening Hours</strong></li>
+            <li>Mon–Fri: 9am – 11pm</li>
+            <li>Sat: 8am – 11pm</li>
+            <li>Sun: 8am - 9pm</li>
+            <li class="mt-2">
+             <a href="tel:+447934562903" class="text-decoration-none fw-bold text-dark">
   <i class="fas fa-phone-alt me-2"></i> +44 7934 562903
 </a>
 
-          </li>
-        </ul>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
+  </nav>
+<!-- Hero Section -->
+<section class="hero-section py-5 bg-light text-dark text-center">
+  <div class="container">
+    <h1 class="display-4 fw-bold">About Furniture Fix</h1>
+    <p class="lead mt-3">Professional furniture assembly services across Birmingham & West Midlands</p>
   </div>
-</nav>
+</section>
 
-
-  <!-- Hero Section -->
-  <section class="hero-section py-5 bg-light text-dark text-center">
-    <div class="container">
-      <h1 class="display-4 fw-bold">About Furniture Fix</h1>
-      <p class="lead mt-3">Professional furniture assembly services across Birmingham & West Midlands</p>
-  
-
-    </div>
-  </section>
-
- <!-- About Our Business -->
+<!-- About Our Business -->
 <section class="about-business py-5">
   <div class="container">
-    <div class="row align-items-center justify-content-start">
-      <div class="col-lg-5 mb-4 mb-lg-0">
+    <div class="row align-items-center">
+      <div class="col-lg-5 mb-4 mb-lg-0 text-center">
         <img src="./Images/melanie-andersen-JwTIclGB5nk-unsplash.jpg" 
              alt="Team at work" 
-             class="img-fluid rounded shadow about-img-small me-3">
+             class="img-fluid rounded shadow about-img-small">
       </div>
       <div class="col-lg-6">
         <h2 class="fw-bold mb-3">Who We Are</h2>
@@ -110,49 +118,43 @@
   </div>
 </section>
 
-
-  <!-- Our Services / Highlights -->
-  <section class="services-highlight py-5 bg-light">
-    <div class="container text-center">
-      <h2 class="fw-bold mb-5">Why Choose Us</h2>
-      <div class="row g-4">
-        <div class="col-md-4">
-          <div class="card h-100 shadow-sm border-0">
-            <div class="card-body">
-              <i class="fas fa-handshake fa-2x text-success mb-3"></i>
-              <h5 class="card-title fw-bold">Customer-Focused</h5>
-              <p class="card-text">We provide a personalized approach to every customer, ensuring satisfaction and peace of mind.</p>
-            </div>
+<!-- Our Services / Highlights -->
+<section class="services-highlight py-5 bg-light">
+  <div class="container text-center">
+    <h2 class="fw-bold mb-5">Why Choose Us</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm border-0">
+          <div class="card-body">
+            <i class="fas fa-handshake fa-2x text-success mb-3"></i>
+            <h5 class="card-title fw-bold">Customer-Focused</h5>
+            <p class="card-text">We provide a personalized approach to every customer, ensuring satisfaction and peace of mind.</p>
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="card h-100 shadow-sm border-0">
-            <div class="card-body">
-              <i class="fas fa-gem fa-2x text-warning mb-3"></i>
-              <h5 class="card-title fw-bold">High-Quality Work</h5>
-              <p class="card-text">Our team assembles furniture safely and efficiently, maintaining high standards of craftsmanship.</p>
-            </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm border-0">
+          <div class="card-body">
+            <i class="fas fa-gem fa-2x text-warning mb-3"></i>
+            <h5 class="card-title fw-bold">High-Quality Work</h5>
+            <p class="card-text">Our team assembles furniture safely and efficiently, maintaining high standards of craftsmanship.</p>
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="card h-100 shadow-sm border-0">
-            <div class="card-body">
-              <i class="fas fa-clock fa-2x text-primary mb-3"></i>
-              <h5 class="card-title fw-bold">Timely Service</h5>
-              <p class="card-text">We respect your time and ensure that all projects are completed promptly and professionally.</p>
-            </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm border-0">
+          <div class="card-body">
+            <i class="fas fa-clock fa-2x text-primary mb-3"></i>
+            <h5 class="card-title fw-bold">Timely Service</h5>
+            <p class="card-text">We respect your time and ensure that all projects are completed promptly and professionally.</p>
           </div>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
- 
-
-
-  
-</body>
-</html>
+<!-- Footer -->
 <footer class="footer py-5">
   <div class="container text-center">
     <h3 class="mb-3">Ready to Get Started?</h3>
@@ -160,3 +162,6 @@
     <a href="./requestaquote.html" class="btn btn-primary btn-lg">Request a Free Quote</a>
   </div>
 </footer>
+
+</body>
+</html>
