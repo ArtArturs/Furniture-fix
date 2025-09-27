@@ -86,23 +86,30 @@
   </p>
 
   <!-- Contact Form -->
-  <form action="arthur@furniturefix.co.uk" method="POST" enctype="text/plain" 
-        style="display: flex; flex-direction: column; gap: 15px;">
-    
-    <input type="text" name="name" placeholder="Your Name" required
-           style="padding: 12px; border: 1px solid #ccc; border-radius: 8px;">
-    
-    <input type="email" name="email" placeholder="Your Email" required
-           style="padding: 12px; border: 1px solid #ccc; border-radius: 8px;">
-    
-    <textarea name="message" rows="5" placeholder="Your Message" required
-              style="padding: 12px; border: 1px solid #ccc; border-radius: 8px;"></textarea>
-    
-    <button type="submit" 
-            style="padding: 14px; background: #0073e6; color: #fff; border: none; border-radius: 8px; cursor: pointer; font-size: 16px;">
-      Send Message
-    </button>
-  </form>
+ <form action="https://formsubmit.co/arthur@furniturefix.co.uk" method="POST" 
+      style="display: flex; flex-direction: column; gap: 15px; max-width: 400px; margin: auto;">
+
+  <!-- Prevent spam -->
+  <input type="hidden" name="_captcha" value="false">
+
+  <!-- Redirect to thank-you page after submission -->
+  <input type="hidden" name="_next" value="http://furniturefix.co.uk/thank-you.html">
+
+  <input type="text" name="name" placeholder="Your Name" required
+         style="padding: 12px; border: 1px solid #ccc; border-radius: 8px;">
+
+  <input type="email" name="email" placeholder="Your Email" required
+         style="padding: 12px; border: 1px solid #ccc; border-radius: 8px;">
+
+  <textarea name="message" rows="5" placeholder="Your Message" required
+            style="padding: 12px; border: 1px solid #ccc; border-radius: 8px;"></textarea>
+
+  <button type="submit" 
+          style="padding: 14px; background: #0073e6; color: #fff; border: none; border-radius: 8px; cursor: pointer; font-size: 16px;">
+    Send Message
+  </button>
+</form>
+
 
   <!-- Direct Contact -->
   <div style="margin-top: 30px; text-align: center;">
