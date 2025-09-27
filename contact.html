@@ -86,11 +86,11 @@
   </p>
 
   <!-- Contact Form -->
-<form action="https://getform.io/f/bjjrqgob" method="POST"
+<form action="https://getform.io/f/bjjrqgob" method="POST" 
       style="display: flex; flex-direction: column; gap: 15px; max-width: 400px; margin: auto;">
 
+      <!-- Redirect to your own thank-you page -->
       <input type="hidden" name="_next" value="https://furniturefix.co.uk/thank-you.html">
-
 
   <input type="text" name="name" placeholder="Your Name" required
          style="padding: 12px; border: 1px solid #ccc; border-radius: 8px;">
@@ -106,6 +106,16 @@
     Send Message
   </button>
 </form>
+
+<!-- JavaScript to force redirect to thank-you page -->
+<script>
+document.querySelector("form").addEventListener("submit", function(e) {
+    setTimeout(function() {
+        window.location.href = "https://furniturefix.co.uk/thank-you.html";
+    }, 500);
+});
+</script>
+
 
 
 
