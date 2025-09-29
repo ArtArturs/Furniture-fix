@@ -1,281 +1,494 @@
-.navbar-nav .nav-link {
-  font-size: 25px; /* adjust this to your preferred size */
-}
-
-.nav-item {
-  margin-top: 65px; /* Push whole item lower */
-}
-
-.nav-link {
-  margin-right: 25px; /* or any value you like */
-  font-size: 1.1rem; 
-  color:black;  /* optional: slightly increase size */
-}
-
-.custom-navbar {
-  background-color:rgba(224, 219, 218, 0.497) /* your custom color - orange example */
-}
-
-.custom-navbar .nav-link:hover {
-  color:rgba(164, 58, 83, 0.985); /* hover effect */
-}
-
-.carousel-caption {
-  top: 50%;           /* Position from top */
-  transform: translateY(-50%);  /* Move up by 50% of its height */
-  bottom: initial;    /* Reset default bottom positioning */
-}
-
-
-.carousel-item {
-  position: relative;
-  z-index: 0; /* base layer */
-}
-
-.carousel-item::before {
-  content: "";
-  position: absolute;
-  top: 0; 
-  left: 0; 
-  right: 0; 
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5); /* semi-transparent dark overlay */
-  z-index: 1; /* overlay above the slide but below controls */
-  pointer-events: none; /* allow clicks to pass through */
-}
-
-.carousel-caption {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2; /* above overlay */
-  text-align: center;
-  width: 100%;
-  color: white;
-  padding: 0 15px;
-}
-
-.carousel-caption h1,
-.carousel-caption p {
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
-}
-
-/* Ensure carousel controls are above everything */
-.carousel-control-prev,
-.carousel-control-next {
-  z-index: 3;
-}
-
-/* styles.css */
-
+/* General Styling */
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
 }
-
-.quote-section {
-  background: linear-gradient(135deg, #ffffff, #e6f0ff);
-  border-top: 4px solid #e6e9ed;
-}
-
-.quote-section h2 {
-  font-weight: 700;
-  color: #ec2744;
-}
-
-.quote-section .btn {
-  min-width: 250px;
-  font-weight: 600;
-}
-
-.quote-section .btn i {
-  margin-right: 8px;
-}
-
-
-.text-shadow {
-  text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.8);
-}
-
-.big-title {
-  font-size: 2rem; /* or 200% */
-}
-
-.big-text {
-  font-size: 1.25rem;
-}
-
-
-.footer {
-  background-color: #222; /* dark background */
-  color: white;
-  text-align: center;
-}
-
-.footer h3 {
-  font-size: 2rem;
-  margin-bottom: 0.5rem;
-}
-
-.footer p {
-  font-size: 1.1rem;
-  margin-bottom: 1.5rem;
-  color: #ccc;
-}
-
-.footer .btn-primary {
-  background-color: #ff6b00; /* bright CTA color */
-  border: none;
-  padding: 12px 30px;
-  font-size: 1.2rem;
-  border-radius: 8px;
-  transition: background-color 0.3s ease;
-  text-decoration: none;
-  color: white;
-}
-
-.footer .btn-primary:hover {
-  background-color: #e65c00;
-  color: white;
-}
-
-
-
-.areas-section {
-  background-color: #f8f9fa;
-}
-
-.area-item {
-  padding: 1rem;
-  border: 1px solid #dee2e6;
-  border-radius: 0.5rem;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.08);
-  transition: all 0.3s ease;
-  background-color: #ffffff;
-  cursor: default;
-}
-
-.area-item:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
-  background-color: #fff3e0;
-}
-
-.area-item p {
-  margin: 0;
-  font-weight: 500;
-}
-
 
 /* Hero Section */
-.hero-section {
-  background-color: #f8f9fa;
+.hero {
+  background: url("./pickawood-JLzD88Mbr4U-unsplash.jpg") center/cover no-repeat;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+}
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.55);
+}
+.hero .container {
+  position: relative;
+  z-index: 2;
 }
 
-.hero-section h1 {
-  color: #2b2b2b;
+/* Pricing Cards */
+.pricing-card {
+  border: none;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+.pricing-card:hover {
+  transform: translateY(-5px);
 }
 
-.hero-section p {
-  font-size: 1.25rem;
+/* Service Cards */
+.service-card img, .service-card .img-fluid {
+  border-radius: 10px;
 }
 
-/* About Business */
-.about-business h2 {
-  color: #ff7f50;
+
+
+/* Sticky Call Button */
+.call-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #0d6efd;
+  color: #fff;
+  padding: 12px 18px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  z-index: 999;
+}
+.call-button i {
+  margin-right: 8px;
+}
+.call-button:hover {
+  background: #084298;
+  color: #fff;
 }
 
-.about-business p {
+
+/* Customer Reviews */
+/* Review Cards */
+.review-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.review-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+}
+.review-card .stars {
+  color: #ffc107; /* Gold stars like Trustpilot */
+  font-size: 1.2rem;
+}
+.review-card p {
+  color: #555;
+  font-style: italic;
+}
+.review-card h6 {
+  color: #333;
+  margin-top: 8px;
+}
+
+
+/* Navbar links */
+.navbar-nav .nav-link {
+  font-size: 1.5rem; /* Increase slightly from default */
+  font-weight: 500;  /* Slightly bolder for readability */
+}
+
+/* Optional: hover effect for better UX */
+.navbar-nav .nav-link:hover {
+  color: #0d6efd; /* Bootstrap primary color on hover */
+}
+
+
+/* About Section */
+.about-business .section-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.about-business .section-text {
   font-size: 1.1rem;
-  line-height: 1.7;
+  color: #555;
+  line-height: 1.6;
 }
 
-/* Services Highlight Cards */
+/* Review Cards */
+.review-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.review-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+}
+.review-card .stars {
+  color: #ffc107;
+  font-size: 1.2rem;
+}
+.review-card p {
+  color: #555;
+  font-style: italic;
+}
+.review-card h6 {
+  color: #333;
+  margin-top: 8px;
+}
+
+
+/* Services Section Cards */
+
+#services .service-card {
+  min-height: 500px;        /* Ensures all cards are roughly the same height */
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.25rem 0.5rem rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#services .service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+}
+
+#services .service-card img {
+  height: 400px;           /* Same height for all images */
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+/* Make Outdoor Furniture card exactly match other cards */
+#services .outdoor-furniture {
+  min-height: 380px;       /* Matches other cards */
+}
+
+/* Responsive adjustments */
+@media (max-width: 991.98px) {
+  #services .service-card {
+    min-height: auto;      /* Let height adjust on smaller screens */
+  }
+
+  #services .service-card img {
+    height: 150px;         /* Smaller images for mobile */
+  }
+}
+
+
+.service-card {
+  color:rgb(37, 104, 135);
+  text-decoration: none;
+  transition: transform 0.3s;
+}
+
+.service-card:hover {
+  transform: scale(1.03);
+}
+
+
+
+.service-card {
+  background-color: #ffffff;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0.75rem 1.5rem rgba(0,0,0,0.15);
+}
+
+.service-list li {
+  padding: 0.25rem 0;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+#assembly-services h2 {
+  color: #111;
+}
+
+@media (max-width: 767px) {
+  .service-card {
+    margin-bottom: 1rem;
+  }
+}
+
+
+
+/* -------------------------------
+   Global Reset & Typography
+-------------------------------- */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333333; 
+  line-height: 1.7;
+  background-color: #FFFFFF; 
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #555555;
+}
+
+/* -------------------------------
+   Navbar
+-------------------------------- */
+.custom-navbar {
+  background-color: #ECECEC; /* light grey navbar */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  padding: 0.8rem 0;
+}
+
+.custom-navbar .nav-link {
+  color: #000000;
+  font-weight: 500;
+  font-size: 1rem;
+  margin-right: 1rem;
+  position: relative;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.custom-navbar .nav-link::after {
+  content: '';
+  display: block;
+  height: 2px;
+  width: 0;
+  background: #000000;
+  transition: width 0.3s ease;
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+}
+
+.custom-navbar .nav-link:hover,
+.custom-navbar .nav-link.active {
+  color: #111111;
+}
+
+.custom-navbar .nav-link:hover::after,
+.custom-navbar .nav-link.active::after {
+  width: 100%;
+}
+
+.navbar-toggler {
+  border-color: #000000;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23000000' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* -------------------------------
+   Hero Section
+-------------------------------- */
+section.bg-light.py-5 {
+  background: linear-gradient(135deg, #FFFFFF, #ECECEC); /* light grey gradient */
+  padding: 100px 0;
+  text-align: center;
+}
+
+section.bg-light.py-5 h1 {
+  font-size: 3rem;
+  color: #000000;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+section.bg-light.py-5 p {
+  font-size: 1.2rem;
+  color: #555555;
+  margin-bottom: 30px;
+}
+
+section.bg-light.py-5 .btn-primary {
+  background-color: #007BFF; /* bright blue for CTA */
+  border: none;
+  padding: 16px 45px;
+  font-weight: 700;
+  color: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+  transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+section.bg-light.py-5 .btn-primary:hover {
+  background-color: #0056b3; 
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+}
+
+/* -------------------------------
+   Areas Section
+-------------------------------- */
+section.container.py-5 h2 {
+  color: #000000;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+section.container ul.list-group {
+  border-radius: 12px;
+  overflow: hidden;
+  padding: 0;
+}
+
+section.container ul.list-group li.list-group-item {
+  background: #ECECEC; /* light grey box */
+  border: 1px solid #D1D1D1;
+  margin-bottom: 12px;
+  font-weight: 500;
+  color: #000000;
+  padding: 14px 22px;
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease, background 0.3s ease, box-shadow 0.3s ease;
+}
+
+section.container ul.list-group li.list-group-item:hover {
+  background: #000000;
+  color: #FFFFFF;
+  transform: translateX(5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* -------------------------------
+   Highlights / Why Choose Us
+-------------------------------- */
+.services-highlight {
+  background: #ECECEC;
+  padding: 80px 0;
+}
+
+.services-highlight h2 {
+  color: #000000;
+  margin-bottom: 50px;
+  text-align: center;
+  font-weight: 700;
+}
+
 .services-highlight .card {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 18px;
+  border: none;
+  padding: 25px;
+  background-color: #FFFFFF;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1); /* more prominent shadow */
 }
 
 .services-highlight .card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.2);
 }
 
-/* Call to Action */
-.cta-section {
-  background-color: #28a745;
+.services-highlight .card-title {
+  color: #000000;
+  margin-bottom: 15px;
 }
 
-.cta-section h2 {
-  font-size: 2rem;
+/* -------------------------------
+   Reviews Carousel
+-------------------------------- */
+.review-card {
+  background: #FFFFFF;
+  border-radius: 18px;
+  padding: 30px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
 }
 
-.cta-section a.btn-light {
-  color: #28a745;
-  transition: background-color 0.3s ease, color 0.3s ease;
+.review-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.15);
 }
 
-.cta-section a.btn-light:hover {
-  background-color: #fff;
-  color: #218838;
+.stars {
+  color: #555555;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
 }
 
-
-@media (max-width: 576px) {
-  .hero-section, .about-business, .services-highlight {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-  .about-business p, .services-highlight p {
-    word-wrap: break-word;
-  }
+/* -------------------------------
+   Footer
+-------------------------------- */
+footer.footer {
+  background-color: #ECECEC; /* light grey footer */
+  color: #000000;
+  padding: 80px 0;
+  text-align: center;
 }
 
-
-/* Prevent horizontal scrolling */
-body, html { overflow-x: hidden; }
-
-/* Navbar logo */
-.logo-img { max-width: 150px; height: auto; }
-
-/* About image */
-.about-img { width: 100%; height: auto; }
-
-/* Hero Section */
-.hero-title { font-size: clamp(1.8rem, 5vw, 3rem); }
-.hero-lead { font-size: clamp(1rem, 2.5vw, 1.25rem); }
-
-/* Section Titles */
-.section-title { font-size: clamp(1.5rem, 4vw, 2.2rem); }
-
-/* Card Titles */
-.card-title { font-size: clamp(1.1rem, 3vw, 1.3rem); }
-
-/* Paragraph text */
-.section-text, .card-text { font-size: clamp(0.9rem, 2.5vw, 1.1rem); line-height: 1.6; }
-
-/* Footer */
-.footer h3 { font-size: clamp(1.5rem, 3vw, 2rem); }
-.footer p { font-size: clamp(1rem, 2.5vw, 1.1rem); }
-
-
-
-
-
-/* Fix navbar toggler icon for GitHub Pages mobile */
-.navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%280, 0, 0, 0.7%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+footer.footer h3 {
+  color: #000000;
+  margin-bottom: 20px;
 }
 
-/* Ensure navbar links don’t overlap on small screens */
-@media (max-width: 576px) {
-  .navbar-nav .nav-link {
-    margin-right: 10px;
+footer.footer a.btn-primary {
+  background-color: #007BFF; /* bright blue button in footer */
+  border: none;
+  color: #FFFFFF;
+  padding: 14px 40px;
+  border-radius: 10px;
+  font-weight: 700;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+  transition: background 0.3s ease, transform 0.2s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
+
+footer.footer a.btn-primary:hover {
+  background-color: #0056b3;
+  color: #FFFFFF;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+}
+
+/* -------------------------------
+   Responsive Adjustments
+-------------------------------- */
+@media (max-width: 991px) {
+  section.bg-light.py-5 h1 {
+    font-size: 2.5rem;
   }
 }
 
-/* Make about image fully responsive */
-.about-img {
-  max-width: 100%;
-  height: auto;
+@media (max-width: 767px) {
+  section.bg-light.py-5 h1 {
+    font-size: 2rem;
+  }
+
+  section.container ul.list-group li.list-group-item {
+    font-size: 0.95rem;
+    padding: 12px 18px;
+  }
+
+  .services-highlight .card {
+    padding: 20px;
+  }
+
+  footer.footer a.btn-primary {
+    padding: 12px 35px;
+  }
+}
+
+
+
+/* Make the inline Contact us link stand out */
+section.bg-light p.lead a {
+    color: #0073e6;        /* Bright blue */
+    font-weight: 600;      /* Slightly bolder */
+    text-decoration: underline; /* Optional, makes it clear it's clickable */
+    transition: color 0.3s ease;
+}
+
+section.bg-light p.lead a:hover {
+    color: #005bb5;       /* Darker blue on hover */
 }
