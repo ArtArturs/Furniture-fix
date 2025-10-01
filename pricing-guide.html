@@ -293,8 +293,17 @@ src="https://www.facebook.com/tr?id=1294507595316527&ev=PageView&noscript=1"
 </footer>
 
 <!-- Sticky Call Button -->
-<a href="tel:+447934562903" 
-   onclick="fbq('trackCustom', 'CallButtonClick');" 
-   class="floating-call-button">Call Us</a>
+<a href="tel:+447934562903" class="floating-call-button">Call Us</a>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var callBtn = document.querySelector('.floating-call-button');
+    if(callBtn) {
+      callBtn.addEventListener('click', function() {
+        fbq('trackCustom', 'CallButtonClick');
+      });
+    }
+  });
+</script>
 </body>
 </html>
